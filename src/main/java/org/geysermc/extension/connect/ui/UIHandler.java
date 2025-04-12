@@ -73,9 +73,9 @@ public class UIHandler {
 
     public void sendMainMenu() {
         SimpleForm.Builder mainMenu = SimpleForm.builder()
-            .title("Main Menu")
-            .button("Official Servers")
-            .button("Geyser Servers");
+            .title("shork.ch - Main Menu")
+            .button("Own Servers")
+            .button("Partner Servers");
 
         // Add a buttons for custom servers
         if (GeyserConnect.instance().config().customServers().enabled()) {
@@ -94,10 +94,10 @@ public class UIHandler {
             .validResultHandler(response -> {
                 switch (response.clickedButtonId()) {
                     case 0:
-                        sendServersMenu(ServerCategory.OFFICIAL);
+                        sendServersMenu(ServerCategory.OWN);
                         return;
                     case 1:
-                        sendServersMenu(ServerCategory.GEYSER);
+                        sendServersMenu(ServerCategory.PARTNER);
                         return;
                     default:
                         if (GeyserConnect.instance().config().customServers().enabled()) {

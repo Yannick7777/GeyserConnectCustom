@@ -16,56 +16,56 @@ servers:
     address: 167.114.81.89
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/myXmr7B.png'
 
   - name: CubeCraft
     address: 94.23.159.81
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/f83ZeDS.jpg'
 
   - name: Galaxite
     address: 54.39.243.199
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/PEkLROT.jpg'
 
   - name: Lifeboat Network
     address: 63.143.54.198
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/GjsxhCI.png'
 
   - name: Mineplex
     address: 108.178.12.38
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/xB6yncS.png'
 
   - name: MineVille
     address: 52.234.130.255
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/yqrfMhP.jpg'
 
   - name: Pixel Paradise
     address: 40.87.84.59
     port: 19132
     bedrock: true
-    category: OFFICIAL
+    category: PARTNER
     imageUrl: 'https://i.imgur.com/fXQdou8.jpg'
 
   - name: Official Geyser Test Server
     address: test.geysermc.org
     port: 19132
     bedrock: true
-    category: GEYSER
+    category: PARTNER
     imageUrl: 'https://geysermc.org/android-chrome-192x192.png'
 
 custom-servers:
